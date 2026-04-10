@@ -1,0 +1,8 @@
+[package]
+name = "cuda-communication"
+version = "0.1.0"
+edition = "2021"
+description = "Inter-agent communication — intent extraction, message framing, protocol negotiation, and language grounding"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
